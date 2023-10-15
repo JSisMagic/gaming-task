@@ -1,0 +1,57 @@
+.selected-machine {
+  width: 100%;
+  padding: 3rem;
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0px 0px 14px 3px rgb(255, 51, 51);
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+}
+
+.bets-wrapper {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.bets-wrapper input {
+  padding: 0.5rem;
+  font-size: 18px;
+}
+
+.selected-machine .bet-options {
+  flex-grow: 1;
+}
+
+.selected-machine .bet-options > button {
+  cursor: pointer;
+}
+
+.spin-btn {
+  padding: 1rem;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #d10000;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.spin-btn:hover {
+  box-shadow: 0px 2px 10px 2px #aa0000;
+
+}
+
+.outcome {
+  text-align: center;
+  margin-top: 1rem;
+}

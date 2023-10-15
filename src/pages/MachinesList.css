@@ -1,0 +1,17 @@
+.machines-list {
+  padding: 2rem;
+  width: 100%;
+}
+
+.machines-list > h1 {
+  text-align: center;
+}
+
+.machines-list > ul {
+  padding: 0;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
